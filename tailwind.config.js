@@ -5,6 +5,14 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  safelist: [
+    'from-blue-400',
+    'to-blue-700',    
+    'from-green-400',
+    'to-green-700',    
+    'from-gray-400',
+    'to-gray-700',
+  ],
   theme: {
     extend: {
       backgroundImage: {
